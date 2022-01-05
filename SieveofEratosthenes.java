@@ -25,8 +25,7 @@ public class SieveofEratosthenes {
                 System.out.print(i + " ");
         }
     }
- 
-    // Driver Code
+
     public static void main(String args[])
     {
         int n = 30;
