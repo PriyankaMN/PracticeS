@@ -9,6 +9,7 @@ Second line contains a single integer B
 Output:
 Print an array of integers which is the Bth right rotation of input array A, on a separate line.
  */
+//TC: O(N) SC: O(N) //Refer RotatetheArray -> for O(1) SC
 
 public class RotationGame {
 

@@ -1,5 +1,4 @@
 import java.util.*;
-import java.util.Scanner;
 /*
 Input:
 First argument is an integer array A.
