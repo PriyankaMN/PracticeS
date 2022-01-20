@@ -1,5 +1,19 @@
 import java.util.*;
 
+/*  Input:
+    First argument is an integer array A.
+    Second argument is an integer B.
+
+    Output:
+    Return an integer denoting the maximum possible sum of elements you picked.
+
+    A = [5, -2, 3 , 1, 2]
+    B = 3
+ */
+
+//no. of iterations -> N+Q -> N for PS array and Q for operation
+//TC: O(N) SC: O(N)
+
 public class Pickfrombothsides {
      public static void main(String[] args) {
         List<Integer> list=new ArrayList<>();

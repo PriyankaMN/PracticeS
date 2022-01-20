@@ -24,7 +24,7 @@ public class EquilibriumIndex {
         int rightsum = 0;
         int leftsum = 0;
 
-        //create a PS array PS: [3, 1, 2, 6, 9, 7, 8] from A : [3, -2, 1, 4, 3, 6, 8]
+       //create a PS array PS: [3, 1, 2, 6, 9, 7, 8] from A : [3, -2, 1, 4, 3, 6, 8]
        for(int i=1;i<A.size();i++){ //O(N)
             PS.add(PS.get(i-1)+A.get(i));
         }
@@ -33,8 +33,8 @@ public class EquilibriumIndex {
         for(int i=1;i<A.size();i++){ //O(N)
             leftsum=0;rightsum=0; //so that for each iteration the values won't continue.
 
-                //find left sum
-                //s=0;e=i-1 Formula : [s e] = PS[e] - PS[s-1]
+            //find left sum
+            //s=0;e=i-1 Formula : [s e] = PS[e] - PS[s-1]
             leftsum+=PS.get(i-1);  //O(Q)
 
             //find right sum
